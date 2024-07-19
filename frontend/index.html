@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cannabis</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Cannabis</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#cart">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="catalog">
+            <h2>Catálogo de Productos</h2>
+            <div id="product-list"></div>
+        </section>
+
+        <section id="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout-btn">Proceder al Pago</button>
+        </section>
+
+        <section id="invoice" style="display: none;">
+            <h2>Factura</h2>
+            <div id="invoice-details"></div>
+            <button id="print-invoice">Imprimir Factura</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Cannabis. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

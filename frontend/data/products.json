@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Cannabis Sativa",
+        "description": "Variedad energética y estimulante",
+        "price": 15.99
+    },
+    {
+        "id": 2,
+        "name": "Cannabis Indica",
+        "description": "Variedad relajante y calmante",
+        "price": 14.99
+    },
+    {
+        "id": 3,
+        "name": "Aceite CBD",
+        "description": "Aceite de cannabidiol de espectro completo",
+        "price": 29.99
+    },
+    {
+        "id": 4,
+        "name": "Gominolas de CBD",
+        "description": "Dulces infusionados con CBD",
+        "price": 9.99
+    }
+]
